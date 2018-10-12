@@ -37,3 +37,4 @@ gem 'devise'
 
 gem 'paperclip'
 gem 'actionpack'
+gem 'acts_as_votable'
