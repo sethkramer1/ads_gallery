@@ -3,7 +3,7 @@
  */
 
 body {
-	font-family: "Proxima Nova";
+	font-family: "Open Sans";
 	font-weight: 100;
 }
 
@@ -63,5 +63,66 @@ header {
 	}
 }
 
-@import 'home.css.scss';
-@import 'post.css.scss';
+
+
+#intro {
+	margin: 2.75rem 0 1.75rem 0;
+	text-align: center;
+	font-size: 1.75rem;
+	line-height: 1;
+	span {
+		font-size: 1.25rem;
+		color: #9B9B9B;
+	}
+}
+#posts {
+	.post {
+		background: #effffe;
+		width: 30%;
+		float: left;
+		margin: 1rem 1.5%;
+		border: 1px solid #fff;
+		border-radius: 0.05rem;
+		.post_image {
+			height: 20%;
+			overflow: hidden;
+			img {
+				width: 100%;
+				border-radius: 0.05rem;
+			}
+		}
+		.post_content {
+			h2 {
+				margin: 0;
+				font-weight: 100;
+				padding: 1rem 5%;
+				border-bottom: 1px solid #E4E4E4;
+				font-size: 1.1rem;
+				a {
+					text-decoration: none;
+					color: #000;
+					&:hover {
+						color: #50A7C7;
+					}
+				}
+			}
+			.data {
+				padding: .75rem 5%;
+				color: #0099ff;
+				.username, .buttons {
+					margin: 0;
+					font-size: .8rem;
+				}
+				.username {
+					float: left;
+				}
+				.buttons {
+					float: right;
+					span {
+						margin-left: .5rem;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html></html>
+<head>
+  <title>FB ads gallery</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"></link>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"></link>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"></link>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header>
+    <div class="wrapper clearfix">
+      <div id="logo">
+        <%= link_to "FB Ads Gallery", root_path %>
+      </div>
+      <nav>
+
+        <%= form_tag(posts_path, :method => "get", id: "search-form") do %>
+        <%= text_field_tag :search, params[:search], placeholder: "Search Posts" %>
+        <%= submit_tag "Search" %>
+        <% end %>
+
+
+
+
+      </nav>
+    </div>
+  </header>
+  <p class="notice">
+    <%= notice %>
+  </p>
+  <p class="alert">
+    <%= alert %>
+  </p>
+  <div class="wrapper">
+    <%= yield %>
+  </div>
+</body>
