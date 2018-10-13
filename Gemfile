@@ -25,12 +25,7 @@ group :development, :test do
   gem 'byebug'
 end
 
-group :development do
-  gem 'web-console', '~> 2.0'
 
-  gem 'spring'
-
-end
 
 
 gem 'haml'
@@ -49,6 +44,7 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
   gem 'sqlite3'
+  gem 'spring'
 
 
 
