@@ -37,6 +37,8 @@ gem 'devise'
 gem 'paperclip'
 gem 'actionpack'
 gem 'acts_as_votable'
+gem 'aws-sdk', '~> 2.3'
+gem "figaro"
 
 
 
