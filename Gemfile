@@ -34,11 +34,12 @@ gem 'simple_form'
 
 gem 'devise'
 
-gem 'paperclip'
+gem 'paperclip', '4.3.7'
 gem 'actionpack'
 gem 'acts_as_votable'
-gem 'aws-sdk', '~> 2.3'
+gem 'aws-sdk', '< 2.0'
 gem "figaro"
+gem 'aws-sdk-s3'
 
 
 
