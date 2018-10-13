@@ -1,0 +1,148 @@
+/*
+
+ */
+/* line 6, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+body {
+  font-family: "Open Sans";
+  font-weight: 100;
+}
+
+/* line 11, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+/* line 15, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 20, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 25, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 29, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+.button {
+  border: 1px solid #9B9B9B;
+  padding: .7rem 1.25rem;
+  border-radius: .3rem;
+  outline: none;
+  background: white;
+  color: #9B9B9B;
+}
+
+/* line 38, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+header {
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom: 1px solid #E4E4E4;
+}
+/* line 42, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+header #logo {
+  float: left;
+  font-size: 1.75rem;
+}
+/* line 45, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+header #logo a {
+  color: #333233;
+  text-decoration: none;
+}
+/* line 48, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+header #logo a:hover {
+  color: #50A7C7;
+}
+/* line 53, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+header nav {
+  float: right;
+}
+/* line 55, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+header nav a {
+  margin-left: 1.5rem;
+  line-height: 2;
+  color: #9B9B9B;
+  text-decoration: none;
+}
+/* line 60, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+header nav a:hover {
+  color: #50A7C7;
+}
+
+/* line 69, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#intro {
+  margin: 2.75rem 0 1.75rem 0;
+  text-align: center;
+  font-size: 1.75rem;
+  line-height: 1;
+}
+/* line 74, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#intro span {
+  font-size: 1.25rem;
+  color: #9B9B9B;
+}
+
+/* line 80, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#posts .post {
+  background: #effffe;
+  min-width: 40%;
+  float: left;
+  margin: 1rem 1.5%;
+  border: 1px solid #fff;
+  border-radius: 0.05rem;
+}
+/* line 87, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#posts .post .post_image {
+  height: 20%;
+  overflow: hidden;
+}
+/* line 90, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#posts .post .post_image img {
+  width: 100%;
+  border-radius: 0.05rem;
+}
+/* line 96, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#posts .post .post_content h2 {
+  margin: 0;
+  font-weight: 100;
+  padding: 1rem 5%;
+  border-bottom: 1px solid #E4E4E4;
+  font-size: 1.1rem;
+}
+/* line 102, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#posts .post .post_content h2 a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 105, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#posts .post .post_content h2 a:hover {
+  color: #50A7C7;
+}
+/* line 110, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#posts .post .post_content .data {
+  padding: .75rem 5%;
+  color: #0099ff;
+}
+/* line 113, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#posts .post .post_content .data .username, #posts .post .post_content .data .buttons {
+  margin: 0;
+  font-size: .8rem;
+}
+/* line 117, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#posts .post .post_content .data .username {
+  float: left;
+}
+/* line 120, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#posts .post .post_content .data .buttons {
+  float: right;
+}
+/* line 122, /Users/sethkramer/Documents/Side_Projects/Rails/fb_ads/app/assets/stylesheets/application.css.scss */
+#posts .post .post_content .data .buttons span {
+  margin-left: .5rem;
+}
