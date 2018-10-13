@@ -1,4 +1,4 @@
-= image_tag @post.image.url(:medium)
+= image_tag @post.url
 
 
 %h1= @post.company
@@ -10,15 +10,13 @@
 = @post.get_upvotes.size
 Likes
 
-%p
-= @post.get_downvotes.size
-Dislikes 
-
 
 = link_to "Like", like_post_path(@post), method: :get
-= link_to "Dislike", dislike_post_path(@post), method: :get
 
 
-= link_to "Edit", edit_post_path(@post)
-= link_to "Delete", post_path(@post), method: :delete, data: { confirm: "Are you sure?"}
-= link_to "Home", root_path
+-if current_user
+  = link_to "Edit", edit_post_path(@post)
+  = link_to "Delete", post_path(@post), method: :delete, data: { confirm: "Are you sure?"}
+  = link_to "Home", root_path
+-else
+  = link_to "Create Account"
