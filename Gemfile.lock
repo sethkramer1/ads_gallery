@@ -227,7 +227,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   paperclip (= 4.3.7)
-  pg (~> 0.18)
+  pg (~> 0.20)
   rails (= 4.2.8)
   rails_12factor
   sass-rails (~> 5.0)
